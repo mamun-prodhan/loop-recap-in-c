@@ -9,6 +9,10 @@ int main(){
         int x;
         scanf("%d",&x);
 
+        if(n == 0){
+            printf("0");
+        }
+
         while(x>0){
             int result = x % 10;
             printf("%d", result);
